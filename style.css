@@ -1,0 +1,54 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ff8fa0;
+  width: 100%;
+}
+
+#hello {
+  flex:.000000000001;
+  justify-content: center; 
+  text-align: center; 
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#instructions {
+  flex:1;
+  text-align: center;
+  font-size: 20px;
+  height: 20%;
+}
+
+#the_button {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  height: 20%;
+}
+
+#button {
+  font-size: 30px;
+  background-color: limegreen;
+  color: blue;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  margin-bottom: 20px;
+}
+
+#button:hover{
+  background-color: blue;
+  color: limegreen;
+  }
+
+#image {
+  justify-content: center;
+}
+
+img {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
